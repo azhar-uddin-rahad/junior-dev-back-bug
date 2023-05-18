@@ -1,6 +1,6 @@
 import { connect, set } from 'mongoose';
 
-export default function conncetMongoDB(mongodbURL) {
+export default function (mongodbURL) {
   return new Promise(function (resolve, reject) {
     // Set mongoose properties
     set('strictQuery', true);
